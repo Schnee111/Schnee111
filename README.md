@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+[](https://github.com/anuraghazra/github-readme-stats&count_private=true)
+![summary ](https://github-readme-stats.vercel.app/api?username=Schnee111&theme=dark&show_icons=true&show=prs_merged_percentage)
+&nbsp;![toplangs](https://github-readme-stats.vercel.app/api/top-langs/?username=Schnee111&theme=dark&layout=donut&size_weight=0.5&count_weight=0.5)
+
 <!--
 **Schnee111/Schnee111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
