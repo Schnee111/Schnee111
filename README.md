@@ -1,20 +1,36 @@
-## Hi there 👋
+<div align="center">
 
-[](https://github.com/anuraghazra/github-readme-stats&count_private=true)
-![summary ](https://github-readme-stats.vercel.app/api?username=Schnee111&theme=dark&show_icons=true&show=prs_merged_percentage)
-&nbsp;![toplangs](https://github-readme-stats.vercel.app/api/top-langs/?username=Schnee111&theme=dark&layout=donut&size_weight=0.5&count_weight=0.5)
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=FE428E&center=true&vCenter=true&width=435&lines=Hi+I'm+Daffa!;Computer+Science+Student;Full+Stack+Developer;Creative+Developer" alt="Typing SVG" />
+  </a>
 
-<!--
-**Schnee111/Schnee111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <p>
+    👋 <b>Hi there! I'm Muhammad Daffa Ma'arif.</b><br>
+    An undergraduate Computer Science student passionate about <b>AI</b>, <b>Web/App Development</b>, and building digital ecosystems.
+  </p>
 
-Here are some ideas to get you started:
+  <h3>🛠️ Languages & Tools</h3>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,git,github,mysql,vscode&theme=dark" />
+  </a>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <br/><br/>
+
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Schnee111&theme=radical&commits_year=2026&hide=issues&show_icons=true" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Schnee111&hide=jupyter%20notebook&layout=compact&theme=radical" />
+  </a>
+
+  <br/>
+
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Schnee111&theme=radical" />
+  </a>
+
+  <br/><br/>
+
+  <img src="https://komarev.com/ghpvc/?username=Schnee111&style=flat-square&color=ff4081" alt="Profile View Counter" />
+
+</div>
