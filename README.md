@@ -17,7 +17,7 @@
   <br/><br/>
 
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Schnee111&theme=radical&commits_year=2026&hide=issues&show_icons=true&hide_border=true&border_radius=25" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Schnee111&theme=radical&commits_year=2026&hide=issues&show_icons=true&hide_border=true&border_radius=25&rank_icon=github" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Schnee111&hide=jupyter%20notebook&layout=compact&theme=radical&hide_border=true&border_radius=25" />
