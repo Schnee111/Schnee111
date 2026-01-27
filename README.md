@@ -26,6 +26,13 @@
   <br/>
   <br/>
 
+  <a href="https://git.io/streak-stats">
+    <img src="https://nirzak-streak-stats.vercel.app?user=Schnee111&theme=radical&hide_border=true&border_radius=25" alt="GitHub Streak" />
+  </a>
+
+  <br/>
+  <br/>
+
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Schnee111" />
   </a>
