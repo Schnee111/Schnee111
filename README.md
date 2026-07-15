@@ -16,11 +16,11 @@
 
   <br/><br/>
 
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Schnee111&theme=radical&commits_year=2026&hide=issues&show_icons=true&hide_border=true&border_radius=25&rank_icon=github&line_height=30&card_width=400" />
+  <a href="https://github.com/stats-organization/github-stats-extended">
+    <img height="180" src="https://github-readme-stats-extended.vercel.app/api?username=Schnee111&theme=radical&commits_year=2026&hide=issues&show_icons=true&hide_border=true&border_radius=25&rank_icon=github&line_height=30&card_width=400" />
   </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Schnee111&hide=jupyter%20notebook,HTML,CSS&layout=compact&theme=radical&hide_border=true&border_radius=25&langs_count=8&card_width=300" />
+  <a href="https://github.com/stats-organization/github-stats-extended">
+    <img height="180" src="https://github-readme-stats-extended.vercel.app/api/top-langs/?username=Schnee111&hide=jupyter%20notebook,HTML,CSS&layout=compact&theme=radical&hide_border=true&border_radius=25&langs_count=8&card_width=300" />
   </a>
 
   <br/>
