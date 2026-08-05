@@ -23,14 +23,13 @@
     <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Schnee111&hide=Shell,TeX,BibTex%20Style,jupyter%20notebook,HTML,CSS&layout=compact&theme=radical&hide_border=true&border_radius=25&langs_count=8&card_width=300" />
   </a>
 
-  <br/>
-  <br/>
+  <br/><br/>
+  
   <a href="https://git.io/streak-stats">
     <img src="https://streak-stats.demolab.com/?user=Schnee111&theme=radical&hide_border=true&border_radius=25&date_format=j%20M%5B%20Y%5D&card_width=500&card_height=200" alt="GitHub Streak" />
   </a>
 
-  <br/>
-  <br/>
+  <br/><br/>
 
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Schnee111" />
