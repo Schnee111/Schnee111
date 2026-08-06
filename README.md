@@ -5,7 +5,7 @@
   </a>
 
   <p>
-    👋 <b>Hi there! I'm Muhammad Daffa Ma'arif.</b><br>
+    👋 <b>Hello there! I'm Muhammad Daffa Ma'arif.</b><br>
     An undergraduate Computer Science student passionate about <b>AI</b>, <b>Web/App Development</b>, and building digital ecosystems.
   </p>
 
