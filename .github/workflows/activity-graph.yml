@@ -1,0 +1,66 @@
+name: Update activity graph
+
+on:
+  schedule:
+    - cron: "0 0,6,12,18 * * *" # Every 6 hours
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/activity-graph.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate activity graph SVG
+        env:
+          TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          git clone --depth 1 https://github.com/Ashutosh00710/github-readme-activity-graph.git /tmp/activity-engine
+          cd /tmp/activity-engine
+          npm ci
+          npm run build
+          node -e '
+            const { Utilities } = require("/tmp/activity-engine/dist/utils.js");
+            const { Fetcher } = require("/tmp/activity-engine/dist/fetcher.js");
+            const fs = require("fs");
+            async function render() {
+              const query = {
+                username: "Schnee111",
+                theme: "radical",
+                hide_border: "true",
+                border_radius: "25",
+                area: "true"
+              };
+              const utils = new Utilities(query);
+              const fetcher = new Fetcher(utils.username);
+              const queryOptions = utils.queryOptions();
+              const calendarData = await fetcher.fetchContributions(queryOptions.days, queryOptions.from, queryOptions.to);
+              const { finalGraph } = await utils.buildGraph(calendarData);
+              fs.mkdirSync("/home/runner/work/Schnee111/Schnee111/profile", { recursive: true });
+              fs.writeFileSync("/home/runner/work/Schnee111/Schnee111/profile/activity-graph.svg", finalGraph);
+              console.log("Rendered activity-graph.svg successfully");
+            }
+            render();
+          '
+
+      - name: Commit and push activity graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add profile/activity-graph.svg
+          git commit -m "Update activity graph [skip ci]" || exit 0
+          git push

@@ -32,7 +32,7 @@
   <br/><br/>
 
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Schnee111" />
+    <img src="./profile/activity-graph.svg" alt="Activity Graph" />
   </a>
 
   <br/><br/>
