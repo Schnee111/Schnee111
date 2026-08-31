@@ -53,7 +53,7 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/Ashutosh00710/github-readme-activity-graph.git /tmp/activity-engine
           cd /tmp/activity-engine
-          npm ci
+          npm install --legacy-peer-deps
           npm run build
           node -e '
             const { Utilities } = require("/tmp/activity-engine/dist/utils.js");
