@@ -1,17 +1,17 @@
-name: Update activity graph
+name: Update profile widgets
 
 on:
   schedule:
-    - cron: "0 0,6,12,18 * * *" # Every 6 hours
+    - cron: "*/20 * * * *" # Every 20 minutes
   push:
     branches:
       - main
     paths:
-      - ".github/workflows/activity-graph.yml"
+      - ".github/workflows/profile-widgets.yml"
   workflow_dispatch:
 
 jobs:
-  build:
+  update-widgets:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -24,7 +24,14 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate activity graph SVG
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=radical&hide_border=true&border_radius=25&date_format=j%20M%5B%20Y%5D&card_width=500&card_height=200
+          path: profile/streak.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Generate activity graph
         env:
           TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
@@ -56,11 +63,15 @@ jobs:
             render();
           '
 
-      - name: Commit and push activity graph
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main
-          git add profile/activity-graph.svg
-          git commit -m "Update activity graph [skip ci]" || exit 0
-          git push
+          git add profile/streak.svg profile/activity-graph.svg
+          if git diff --staged --quiet; then
+            echo "No changes in SVG files. Skipping commit."
+          else
+            git commit -m "chore(widgets): update streak and activity graph [skip ci]"
+            git push
+          fi
