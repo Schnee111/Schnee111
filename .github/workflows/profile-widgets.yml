@@ -34,7 +34,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&theme=radical&custom_title=Schnee's%20Stats&commits_year=2026&include_all_commits=true&show_icons=true&hide_border=true&border_radius=25&rank_icon=github&line_height=30&card_width=400
+          options: username=${{ github.repository_owner }}&theme=radical&custom_title=Schnee's%20Stats&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&border_radius=25&rank_icon=github&line_height=30&card_width=400
           path: profile/stats.svg
           token: ${{ secrets.PAT_TOKEN }}
 
