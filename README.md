@@ -4,9 +4,9 @@
   <p><b>Software Engineer • AI Systems & Distributed Architecture</b></p>
 
   <p>
-    Engineering deterministic AI systems, agentic runtimes, and resilient infrastructure.<br/>
-    Not chasing hype. I design autonomous multi-agent orchestration, high-throughput time-series pipelines,<br/>
-    and reactive backends built to stay standing when state drifts.
+    Constructing deterministic engines in an uncertain computational world.<br/>
+    Architecting autonomous multi-agent runtimes, continuous telemetry streams, and resilient infrastructure.<br/>
+    Keeping steady order when ambient data drifts.
   </p>
 
   <br/>
