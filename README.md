@@ -1,21 +1,19 @@
-<table border="0">
-  <tr>
-    <td width="72%" valign="top">
-      <h2>Muhammad Daffa Ma’arif</h2>
-      <p><b>Software Engineer • AI Systems & Distributed Architecture</b></p>
-      <p>
-        Engineering deterministic AI systems, agentic runtimes, and resilient infrastructure.<br/>
-        Not chasing hype — I design autonomous multi-agent orchestration, high-throughput time-series pipelines, and reactive backends built to stay standing when state drifts.
-      </p>
-      <p><i>&ldquo;Order in the noise, permanence in the stream.&rdquo;</i></p>
-    </td>
-    <td width="28%" align="center" valign="middle">
-      <img src="./profile/assets/shorekeeper-sleep.gif" width="220" alt="Shorekeeper" />
-    </td>
-  </tr>
-</table>
-
 <div align="center">
+
+  <h2>Muhammad Daffa Ma’arif</h2>
+  <p><b>Software Engineer • AI Systems & Distributed Architecture</b></p>
+
+  <p>
+    Engineering deterministic AI systems, agentic runtimes, and resilient infrastructure.<br/>
+    Not chasing hype. I design autonomous multi-agent orchestration, high-throughput time-series pipelines,<br/>
+    and reactive backends built to stay standing when state drifts.
+  </p>
+
+  <br/>
+
+  <img src="./profile/assets/shorekeeper-sleep.gif" width="165" alt="Resting" />
+
+  <p><i>&ldquo;Order in the noise, permanence in the stream.&rdquo;</i></p>
 
   <br/>
 
