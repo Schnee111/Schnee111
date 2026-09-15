@@ -1,21 +1,31 @@
+<table border="0">
+  <tr>
+    <td width="72%" valign="top">
+      <h2>Muhammad Daffa Ma’arif</h2>
+      <p><b>Software Engineer • AI Systems & Distributed Architecture</b></p>
+      <p>
+        Engineering deterministic AI systems, agentic runtimes, and resilient infrastructure.<br/>
+        Not chasing hype — I design autonomous multi-agent orchestration, high-throughput time-series pipelines, and reactive backends built to stay standing when state drifts.
+      </p>
+      <p><i>&ldquo;Order in the noise, permanence in the stream.&rdquo;</i></p>
+    </td>
+    <td width="28%" align="center" valign="middle">
+      <img src="./profile/assets/shorekeeper-sleep.gif" width="220" alt="Shorekeeper" />
+    </td>
+  </tr>
+</table>
+
 <div align="center">
 
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=FE428E&center=true&vCenter=true&width=435&lines=Hi+I'm+Daffa!;Computer+Science+Student;Full+Stack+Developer;Creative+Developer" alt="Typing SVG" />
-  </a>
+  <br/>
 
-  <p>
-    👋 <b>Hello there! I'm Muhammad Daffa Ma'arif.</b><br>
-    An undergraduate Computer Science student passionate about <b>AI</b>, <b>Web/App Development</b>, and building digital ecosystems.
-  </p>
-
-  <h3>🛠️ Languages & Tools</h3>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,git,github,mysql,vscode&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,go,py,ts,postgres,docker,git,linux&theme=dark" alt="Core Technologies" />
   </a>
 
   <br/><br/>
 
+  <!-- Telemetry & Stats -->
   <a href="https://github.com/stats-organization/github-stats-extended">
     <img height="180" src="./profile/stats.svg" alt="GitHub Stats" />
   </a>
@@ -34,9 +44,5 @@
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="./profile/activity-graph.svg" alt="Activity Graph" />
   </a>
-
-  <br/><br/>
-
-  <img src="https://komarev.com/ghpvc/?username=Schnee111&style=flat-square&color=ff4081" alt="Profile View Counter" />
 
 </div>
