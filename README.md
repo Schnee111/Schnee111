@@ -11,7 +11,7 @@
 
   <br/>
 
-  <img src="./profile/assets/shorekeeper-sleep.gif" width="165" alt="Resting" />
+  <img src="./profile/assets/shorekeeper-sleep.gif" width="330" alt="Resting" />
 
   <p><i>&ldquo;Order in the noise, permanence in the stream.&rdquo;</i></p>
 
@@ -31,19 +31,17 @@
     <img height="180" src="./profile/top-langs.svg" alt="Top Languages" />
   </a>
 
-  <br/><br/>
+  <br/>
   
   <a href="https://git.io/streak-stats">
     <img src="./profile/streak.svg" alt="GitHub Streak" />
   </a>
 
-  <br/><br/>
+  <br/>
 
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="./profile/activity-graph.svg" alt="Activity Graph" />
   </a>
-
-  <br/><br/>
 
   <img src="https://komarev.com/ghpvc/?username=Schnee111&style=flat-square&color=70a5fd" alt="Profile View Counter" />
 
