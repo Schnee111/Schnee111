@@ -208,7 +208,7 @@
           data-testid="lang-progress"
           x="248.77"
           y="0"
-          width="11.24"
+          width="11.23"
           height="8"
           fill="#ff5a03"
         />
@@ -219,7 +219,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 33.76%
+        TypeScript 33.77%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -268,7 +268,7 @@
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#ff5a03" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Astro 0.50%
+        Astro 0.49%
       </text>
     </g>
   </g></g>
