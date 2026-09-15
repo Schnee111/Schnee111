@@ -43,4 +43,8 @@
     <img src="./profile/activity-graph.svg" alt="Activity Graph" />
   </a>
 
+  <br/><br/>
+
+  <img src="https://komarev.com/ghpvc/?username=Schnee111&style=flat-square&color=70a5fd" alt="Profile View Counter" />
+
 </div>
