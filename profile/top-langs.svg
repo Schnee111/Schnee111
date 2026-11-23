@@ -138,7 +138,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="97.9"
+          width="97.91"
           height="8"
           fill="#3178c6"
         />
@@ -146,9 +146,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="97.9"
+          x="97.91"
           y="0"
-          width="66.53"
+          width="66.56"
           height="8"
           fill="#3572A5"
         />
@@ -156,9 +156,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="164.43"
+          x="164.47"
           y="0"
-          width="66.21"
+          width="66.18"
           height="8"
           fill="#f1e05a"
         />
@@ -166,7 +166,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="230.64"
+          x="230.65"
           y="0"
           width="18.11"
           height="8"
@@ -176,9 +176,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="238.75"
+          x="238.76"
           y="0"
-          width="13.7"
+          width="13.69"
           height="8"
           fill="#dea584"
         />
@@ -188,7 +188,7 @@
           data-testid="lang-progress"
           x="242.45"
           y="0"
-          width="13.59"
+          width="13.58"
           height="8"
           fill="#000080"
         />
@@ -196,7 +196,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="246.04"
+          x="246.03"
           y="0"
           width="12.27"
           height="8"
@@ -206,7 +206,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="248.31"
+          x="248.3"
           y="0"
           width="11.7"
           height="8"
@@ -226,14 +226,14 @@
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 26.61%
+        Python 26.63%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 26.48%
+        JavaScript 26.47%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
