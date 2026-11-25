@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Schnee&#39;s Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 50, Total Commits  : 5799, Total PRs: 717, Total Issues: 389, Contributed to (last year): 10</desc>
+        <desc id="descId">Total Stars Earned: 50, Total Commits  : 5799, Total PRs: 718, Total Issues: 389, Contributed to (last year): 10</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 48.990359805220436;
+        stroke-dashoffset: 48.990318093474826;
       }
     }
   
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >717</text>
+      >718</text>
     </g>
   </g><g transform="translate(0, 90)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
